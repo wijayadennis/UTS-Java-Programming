@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="454.0" prefWidth="952.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="healthcare.PatientsController">
+   <children>
+      <Pane layoutX="17.0" layoutY="18.0" prefHeight="419.0" prefWidth="924.0" style="-fx-background-color: #fff;">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="25.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/logo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="112.0" layoutY="31.0" text="Sara In" textFill="#2d0fb2">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="112.0" layoutY="59.0" text="Ref : 394793749" textFill="#9995a8" />
+            <Label layoutX="540.0" layoutY="25.0" text="Date Registration" textFill="#4126b9">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="733.0" layoutY="25.0" text="Date Apportment" textFill="#4126b9">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="571.0" layoutY="44.0" text="24" textFill="#726e83">
+               <font>
+                  <Font name="System Bold" size="50.0" />
+               </font>
+            </Label>
+            <Label layoutX="640.0" layoutY="56.0" text="April" textFill="#4126b9">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="640.0" layoutY="78.0" text="2023" textFill="#868490">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="764.0" layoutY="44.0" text="28" textFill="#726e83">
+               <font>
+                  <Font name="System Bold" size="50.0" />
+               </font>
+            </Label>
+            <Label layoutX="833.0" layoutY="56.0" text="April" textFill="#4126b9">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="833.0" layoutY="78.0" text="2023" textFill="#868490">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Separator layoutX="710.0" layoutY="25.0" orientation="VERTICAL" prefHeight="84.0" prefWidth="0.0" />
+            <Separator layoutX="25.0" layoutY="124.0" prefHeight="10.0" prefWidth="856.0" />
+            <Label layoutX="25.0" layoutY="147.0" text="PATIENT" textFill="#9995a8" />
+            <Label layoutX="296.0" layoutY="147.0" text="AGE" textFill="#9995a8" />
+            <Label layoutX="25.0" layoutY="254.0" text="E-MAIL" textFill="#9995a8" />
+            <Label layoutX="296.0" layoutY="254.0" text="PHONE NUMBER" textFill="#9995a8" />
+            <Label layoutX="25.0" layoutY="178.0" text="Sarah In" textFill="#373639" />
+            <Label layoutX="296.0" layoutY="178.0" text="25 Year Old" textFill="#373639" />
+            <Label layoutX="25.0" layoutY="284.0" text="Sarahin@yahoo.com" textFill="#373639" />
+            <Label layoutX="296.0" layoutY="284.0" text="+1331726363662" textFill="#373639" />
+            <Label layoutX="600.0" layoutY="147.0" text="OPERATION" textFill="#9995a8" />
+            <Label layoutX="601.0" layoutY="178.0" text="Pending" textFill="#373639" />
+            <Pane layoutX="6.0" layoutY="340.0" prefHeight="56.0" prefWidth="917.0" style="-fx-background-color: #4126b9;">
+               <children>
+                  <Label layoutX="20.0" layoutY="18.0" text="Welcome to Health Care System" textFill="#ebebeb" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
